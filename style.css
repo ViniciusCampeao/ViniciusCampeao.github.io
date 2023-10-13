@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    background-color: #333;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.content {
+    background-color: #f2f2f2;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+section.content img {
+    width: 300px; /* Largura desejada em pixels */
+    height: auto; /* Mantém a proporção original */
+}
+
+
+form {
+    padding: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Pseudo-classe para estilo de link */
+a:hover {
+    color: #ff5733;
+}
